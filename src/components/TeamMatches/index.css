@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.all-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-size: cover;
+  align-items: center;
+  padding: 50px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.latest-match-text {
+  text-align: left;
+  color: white;
+  font-size: 19px;
+  font-family: 'Bree serif';
+}
+.text-container {
+  text-align: left;
+}
+.RCB {
+  background-color: #d91c1f;
+}
+.KKR {
+  background-color: #5755a7;
+}
+.MI {
+  background-color: #13418b;
+}
+.RR {
+  background-color: #da237b;
+}
+.SRH {
+  background-color: #f26d22;
+}
+.KXP {
+  background-color: #a4261d;
+}
+.CSK {
+  background-color: #f7db00;
+}
+.DC {
+  background-color: #1e293b;
+}
+.recent-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}

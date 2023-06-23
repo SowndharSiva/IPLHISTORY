@@ -1,0 +1,44 @@
+.list-container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  list-style-type: none;
+  margin: 39px;
+  background-color: #0f172a;
+  border-radius: 30px;
+  width: 250px;
+}
+.competing-team-image {
+  height: 60px;
+  width: 60px;
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.team-name {
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Bree serif';
+  margin-bottom: 17px;
+}
+.result {
+  font-weight: 12px;
+  color: white;
+  font-family: 'Bree serif';
+  margin-bottom: 9px;
+}
+.Won {
+  font-size: 15px;
+  color: green;
+  font-family: 'Bree serif';
+  font-weight: bold;
+}
+.Lost {
+  font-size: 15px;
+  color: red;
+  font-family: 'Bree serif';
+  font-weight: bold;
+}
